@@ -1,4 +1,4 @@
-# Word Frequency
+# Word Frequency From Web Page
 
 ## Quick Start
 
@@ -20,7 +20,15 @@ $ python manage.py db upgrade
 
 ### Run
 
+Run each in a different terminal window...
+
 ```sh
+# redis
+$ redis server
+
+# worker process
+$ python worker.py
+
 # the app
 $ python app.py
 ```
