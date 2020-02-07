@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-### First Steps
+### Virtual Python Environment
 
 ```sh
 $ virtualenv env
@@ -23,12 +23,12 @@ $ python manage.py db upgrade
 Run each in a different terminal window...
 
 ```sh
-# redis
+# run redis
 $ redis server
 
 # worker process
 $ python worker.py
 
-# the app
+# run the app
 $ python app.py
 ```
